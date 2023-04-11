@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Configuration.RepositoryHandler.MsSql.EF": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60699;http://localhost:60700"
+    }
+  }
+}

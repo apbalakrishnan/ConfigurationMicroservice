@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Configuration.Common\Configuration.Common.csproj" />
+    <ProjectReference Include="..\Configuration.DataTransfer\Configuration.DataTransfer.csproj" />
+    <ProjectReference Include="..\Configuration.RepositoryHandler.MsSql.EF\Configuration.RepositoryHandler.MsSql.EF.csproj" />
+  </ItemGroup>
+
+</Project>
